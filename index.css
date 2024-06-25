@@ -1,0 +1,80 @@
+body{
+    overflow-x: hidden;
+}
+
+p{
+    color: rgb(26, 26, 26);
+    font-weight: bolder;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img-desc{
+    display: block;
+    font-size: calc(1.20vw)
+}
+
+.normal-text{
+    
+    display: block;
+    font-size: calc(1.5vw)
+}
+
+.title-text{
+    font-family: monospace;
+    font-size: calc(2.25vw);
+}
+
+#Sobre{
+    background-color: #402E7A;
+} 
+
+#Projetos{
+    
+    background-color: #4C3BCF;
+}
+
+#Habilidades{
+    background-color: #4B70F5;
+}
+
+#Contatos{
+    background-color: #3DC2EC;
+}
+
+#navbar{
+    background-color: #67279b !important;
+    font-family: monospace;
+
+}
+
+#bg-img-top{
+    background-image: url('https://user-images.githubusercontent.com/95478989/198955082-6e78ebb5-e1e4-49f9-8d32-6e5af3984dcd.gif');
+    /*background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Herjangsfjorden_%26_Ofotfjorden%2C_wide%2C_2009_09.jpg');*/
+    background-size: cover;
+    max-height: 400px;
+    height: 40vh; 
+    width: 100vw;
+}
+
+#port-title{
+    color: rgb(26, 26, 26);
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+#pic{
+    height: 20vw;
+    width: 20vw;
+}
+
+#sobre-text{
+    margin-left: 5vh;
+    margin-top: 2vh;
+}
+
+#contatos-text{
+    margin-left: 5vh;
+    margin-top: 2vh;
+}
